@@ -7,7 +7,7 @@ user_f <- function(data){
   print ('this is example for function code 5')
   print ('this is example for function code 6')
   print ('this is example for RStudio')
-  print ('this is example for Rstudio 2')
+  print ('this is example for Rstudio 3')
 <<<<<<< HEAD
   print ('this is example for RStudio git 3')
 =======
