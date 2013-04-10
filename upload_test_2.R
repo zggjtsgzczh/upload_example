@@ -7,6 +7,9 @@ user_f <- function(data){
   print ('this is example for function code 5')
   print ('this is example for function code 6')
   print ('this is example for RStudio')
+<<<<<<< HEAD
   print ('this is example for RStduio Git upload 2')
   print ('this is example for RStudio Git upload 3')
+=======
+>>>>>>> f8064fb359581d40ea7fd85e2f50e278f53a65c8
 }
