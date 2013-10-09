@@ -1,0 +1,34 @@
+%% LyX 2.0.6 created this file. For more info, see http://www.lyx.org/.
+%% Do not edit unless you really know what you are doing.
+\documentclass{ctexart}
+\usepackage{fontspec}
+\usepackage[paperwidth=18cm,paperheight=18cm]{geometry}
+\geometry{verbose,tmargin=1.5cm,bmargin=1cm,lmargin=1cm,rmargin=1cm}
+
+\makeatletter
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% User specified LaTeX commands.
+\usepackage{multicol}
+
+\makeatother
+
+\begin{document}
+\newpage
+
+1.1 旗舰店访次（周）
+
+<<setup, include=FALSE>>=
+  options(device = function(file, width = 2, height = 2, ...) {
+    cairo_pdf(tempfile(), width = width, height = height, ...) })
+pdf.options(family = "GB1")
+@
+<<fig9,echo=FALSE,warning=FALSE,message=FALSE,fig.width=6,fig.height=5,fig.align="center">>=
+  
+  library(ggplot2)
+x=data.frame(a=1:10,b=1:10)
+
+p=ggplot(x,aes(x=a,y=b))
+p+geom_line()+labs(x="直线")
+@
+
+\newpage
+\end{document}
